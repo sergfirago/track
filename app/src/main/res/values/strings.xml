@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrackTest</string>
+    <string name="main_no_location_data">No data</string>
+    <string name="main_location">location [%f : %f]</string>
+    <string name="main_length">length: %d</string>
+    <string name="main_start">Start</string>
+    <string name="main_stop">Stop</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тестовый Одометр</string>
+    <string name="main_no_location_data">Нет данных</string>
+    <string name="main_location">Координаты [%f : %f]</string>
+    <string name="main_length">Пройдено: %d</string>
+    <string name="main_start">Передача</string>
+    <string name="main_stop">Стоп</string>
+</resources>
