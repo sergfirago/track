@@ -29,8 +29,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
 
-    //google service
-    implementation "com.google.android.gms:play-services-location:15.0.1"
 
     //room
     implementation "android.arch.persistence.room:runtime:1.1.0"

@@ -9,9 +9,6 @@ import android.util.Log;
 
 import com.firago.serg.tracktest.App;
 import com.firago.serg.tracktest.domain.LocationData;
-import com.google.android.gms.location.LocationResult;
-
-import java.util.List;
 
 import static android.location.LocationManager.KEY_LOCATION_CHANGED;
 
@@ -43,13 +40,6 @@ public class TrackService extends IntentService {
                     // LocationManager
                     Location location = intent.getParcelableExtra(KEY_LOCATION_CHANGED);
                     insertLocation(location);
-                }
-                else if(LocationResult.hasResult(intent)){
-                    LocationResult result = LocationResult.extractResult(intent);
-                    List<Location> locations = result.getLocations();
-                    for (Location location : locations) {
-                        insertLocation(location);
-                    }
                 }
             }
 
